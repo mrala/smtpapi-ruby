@@ -1,23 +1,22 @@
 language: ruby
 rvm:
-  - 2.7
-  - 2.6
-  - 2.5
-  - 2.4
-  - jruby-9.2
+- 2.7
+- 2.6
+- 2.5
+- 2.4
+- jruby-9.2
 before_script:
-  - make install
+- make install
 script:
-  - make test
+- make test
 deploy:
   provider: rubygems
-  api_key: $RUBYGEMS_API_KEY
+  api_key: "$RUBYGEMS_API_KEY"
   gem: smtpapi
   on:
     tags: true
     rvm: '2.4'
     skip_cleanup: true
-
 notifications:
   slack:
     if: branch = main
@@ -25,4 +24,4 @@ notifications:
     on_success: never
     on_failure: change
     rooms:
-      - secure: kyDurUDtXcp+6SfpFeszmzRZEpl2IOFqevGelhKVfx7j+M+p1wvPCkv9vnSdpKaZbQ80EKORxS4ZsnKUL9/yOP2uF9mrzB/DCfzFynw/IVfBejM8nkbf/CmosFh0SkkLuwotaPeqMhAtg1J8Avk1HVKJmihaJfkD6kzQ3PSyKlw=
+      secure: gCVsyobqaWkK89J305gh2EOQbcP8KdrpfN+5MQRy/C46LEfErJthnsxq7YfYH0u8ZlRI013A9yCYVOaVWwx8cSETeKu58ib6hVjK4iUjKELXufCwfghyjgo6gymewLODgrnbeVIbTpqjYoOxNjVN8W+m8XjF9NRxeCd4T2Ipxvo=
