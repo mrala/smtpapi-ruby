@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+[2022-01-12] Version 0.1.10
+---------------------------
+**Library - Chore**
+- [PR #98](https://github.com/sendgrid/smtpapi-ruby/pull/98): update license year. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
+
+
 [2020-09-02] Version 0.1.9
 --------------------------
 **Library - Chore**
