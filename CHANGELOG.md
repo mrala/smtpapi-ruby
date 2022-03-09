@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+[2022-03-09] Version 0.1.12
+---------------------------
+**Library - Chore**
+- [PR #102](https://github.com/sendgrid/smtpapi-ruby/pull/102): push Datadog Release Metric upon deploy success. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+
+
 [2022-02-09] Version 0.1.11
 ---------------------------
 **Library - Chore**
