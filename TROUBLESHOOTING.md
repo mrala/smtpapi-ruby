@@ -1,6 +1,4 @@
-If you have a non-library SendGrid issue, please contact our [support team](https://support.sendgrid.com).
-
-If you can't find a solution below, please open an [issue](https://github.com/sendgrid/smtpapi-ruby/issues).
+If you have a SendGrid issue, please contact our [support team](https://support.sendgrid.com).
 
 ## Table of Contents
 * [Viewing the Request Header](#request-header)

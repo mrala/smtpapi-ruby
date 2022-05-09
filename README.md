@@ -17,6 +17,7 @@ All updates to this library is documented in our [CHANGELOG](CHANGELOG.md).
 - [Usage](#usage)
 - [How to Contribute](#contribute)
 - [About](#about)
+- [Support](#support)
 - [License](#license)
 
 <a name="installation"></a>
@@ -81,8 +82,6 @@ We encourage contribution to our libraries, please see our [CONTRIBUTING](CONTRI
 
 Quick links:
 
-- [Feature Request](CONTRIBUTING.md#feature_request)
-- [Bug Reports](CONTRIBUTING.md#submit_a_bug_report)
 - [Improvements to the Codebase](CONTRIBUTING.md#improvements_to_the_codebase)
 - [Review Pull Requests](CONTRIBUTING.md#code-reviews)
 
@@ -95,9 +94,10 @@ This library was created by [Wataru Sato](https://github.com/awwa) and is now ma
 
 smtpapi-ruby is maintained and funded by Twilio SendGrid, Inc. The names and logos for smtpapi-ruby are trademarks of Twilio SendGrid, Inc.
 
-If you need help installing or using the library, please check the [Twilio SendGrid Support Help Center](https://support.sendgrid.com).
+<a name="support">
+# Support
 
-If you've instead found a bug in the library or would like new features added, go ahead and open issues or pull requests against this repo!
+If you need with SendGrid, please check the [Twilio SendGrid Support Help Center](https://support.sendgrid.com).
 
 <a name="license"></a>
 # License
